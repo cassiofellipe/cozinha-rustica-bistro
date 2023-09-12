@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.navbar {
+    background-color: #692000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #FBFAF7;
+    color: #692000;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.section-title {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.navbar-toggler {
+    background-color: #F8F7F4;
+}
+
+.t {
+    border-left: 2px solid rgb(202, 201, 201);
+    height: 500px;
+    position: absolute;
+    left: 40%;
+    margin-left: 3px;
+    
+}
+
+.img-ricardo {
+   width: 45%;
+   justify-content: center;
+   margin-left: 200px;   
+}
+
+
+.section-title span,
+h3 {
+color: #692000;
+}
+
+#sobre-cozinha,
+#cardapio {
+    background-color: #F8F7F4;
+}
+
+.text-colored {
+    color: #692000;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #692000;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
