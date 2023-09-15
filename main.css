@@ -1,14 +1,14 @@
 body {
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .navbar {
-    background-color: #692000;
+    background-color: #63311e;
 }
 
 #cabecalho .nav .nav-link.active {
     background-color: #FBFAF7;
-    color: #692000;
+    color: #63311e;
 }
 
 #cabecalho .nav .nav-link,
@@ -30,7 +30,7 @@ body {
     border-left: 2px solid rgb(202, 201, 201);
     height: 500px;
     position: absolute;
-    left: 40%;
+    left: 44%;
     margin-left: 3px;
     
 }
@@ -38,13 +38,14 @@ body {
 .img-ricardo {
    width: 45%;
    justify-content: center;
-   margin-left: 200px;   
+   margin-left: 200px; 
+   align-items: center;  
 }
 
 
 .section-title span,
 h3 {
-color: #692000;
+color: #63311e;
 }
 
 #sobre-cozinha,
@@ -53,12 +54,12 @@ color: #692000;
 }
 
 .text-colored {
-    color: #692000;
+    color: #63311e;
 }
 
 .nav-cardapio .nav-link.active,
 #fale-conosco button {
-    background-color: #692000;
+    background-color: #63311e;
     color: #fff;
 }
 
